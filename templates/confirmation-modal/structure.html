@@ -1,0 +1,14 @@
+<dialog class="confirmation-modal">
+  <form method="dialog">
+    <p>
+      <slot name="dialog-message-content">
+        Are you sure you want to continue?
+      </slot>
+    </p>
+    <div>
+      <button id="yes-button" value="default">Yes</button>
+      <button value="cancel">Cancel</button>
+    </div>
+  </form>
+</dialog>
+<output></output>

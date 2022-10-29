@@ -15,8 +15,25 @@
   <body>
     <h1>Sitemate Challenge</h1>
 
-    <confirmation-modal dialog-message-content="Do you want to continue?">
-    </confirmation-modal>
+    <div class="modal-section">
+      <button class="confirmation-modal-1">Modal 1: Click me</button>
+      <confirmation-modal
+        class="confirmation-modal-1"
+        dialog-message-content="Modal 1: Are you sure you want to continue?"
+      >
+      </confirmation-modal>
+      <output class="confirmation-modal-1"></output>
+    </div>
+
+    <div class="modal-section">
+      <button class="confirmation-modal-2">Modal 2: Click me</button>
+      <confirmation-modal
+        class="confirmation-modal-2"
+        dialog-message-content="Modal 2: Are you sure you want to continue?"
+      >
+      </confirmation-modal>
+      <output class="confirmation-modal-2"></output>
+    </div>
 
     <div id="injectable-templates">
       <template id="confirmation-modal"></template>

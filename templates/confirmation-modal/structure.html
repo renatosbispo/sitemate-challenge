@@ -1,4 +1,4 @@
-<dialog class="confirmation-modal">
+<dialog class="confirmation-modal-dialog">
   <form method="dialog">
     <p>
       <slot name="dialog-message-content">
@@ -7,8 +7,7 @@
     </p>
     <div>
       <button id="yes-button" value="default">Yes</button>
-      <button value="cancel">Cancel</button>
+      <button id="cancel-button" value="cancel">Cancel</button>
     </div>
   </form>
 </dialog>
-<output></output>
